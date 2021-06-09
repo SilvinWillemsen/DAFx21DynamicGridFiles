@@ -1,4 +1,8 @@
-This folder contains various sound files of a 1D wave equation initialised with a raised cosine (rather than the excitation used in the paper u_1 = 1) for more pleasant audio. The grid configurations are altered over the course of the simulation
+This repository accompanies the following publication: "S. Willemsen, S. Bilbao, M. Ducceschi and S. Serafin, "Dynamic Grids for Finite-Difference Schemes in Musical Instrument Simulations", Proceedings of the 23rd Int. Conf. on Digital Audio Effects (DAFx), 2021.
+
+The dynamicGrid.m file is a MATLAB implementation of the Dynamic Grid.
+
+The Sound Files folder contains audio of the system initialised with a raised cosine (rather than the excitation used in the paper u_1 = 1) for more pleasant audio. The grid configurations are altered over the course of the simulation.
 
 Two files show a smooth transition between grid configurations over the course of two seconds:
 - N50to600in2Sec: Goes from N = 50 to N = 600 in 2 seconds (frequency decrease)

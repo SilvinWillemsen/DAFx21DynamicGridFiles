@@ -35,8 +35,8 @@ if numFromBound == 0
 end
 
 %% Initialise N
-Ninit = 15;             % How many points to start with
-Nend = 20;              % How many points to go to
+Ninit = 50;             % How many points to start with
+Nend = 600;              % How many points to go to
 N = floor(Ninit);
 NPrev = N;
 
